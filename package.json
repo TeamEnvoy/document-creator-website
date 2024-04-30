@@ -33,6 +33,7 @@
     "lint:fix": "npm run lint -- --fix",
     "serve-static": "http-server build -s -p 3000",
     "dev": "npm-run-all -p dev:*",
+    "start": "npm-run-all -p dev:*",
     "dev:blockchain": "npm run blockchain",
     "dev:css": "postcss src/tailwind.css -o src/index.css --watch",
     "dev:js": "sleep 2 && react-app-rewired start",
